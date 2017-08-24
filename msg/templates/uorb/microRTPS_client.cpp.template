@@ -79,7 +79,7 @@ void* send(void* /*unused*/)
     int loop = 0, read = 0;
     uint32_t length = 0;
 
-    /* subscribe to topics */
+    /* subscribe to UORB topics */
     int fds[@(len(send_topics))] = {};
 
     // orb_set_interval statblish an update interval period in milliseconds.
