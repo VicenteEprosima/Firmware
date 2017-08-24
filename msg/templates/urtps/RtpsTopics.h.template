@@ -73,14 +73,14 @@ public:
 
 private:
 @[if send_topics]@
-    // Publishers
+    // Fast RTPS publishers
 @[for topic in send_topics]@
     @(topic)_Publisher _@(topic)_pub;
 @[end for]@
 @[end if]@
 
 @[if recv_topics]@
-    // Subscribers
+    // Fast RTPS subscribers
 @[for topic in recv_topics]@
     @(topic)_Subscriber _@(topic)_sub;
 @[end for]@
