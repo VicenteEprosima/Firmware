@@ -1,6 +1,9 @@
 
 # Message identification constants
 
+#
+# LA CONSTANCIA EN LA VIDA ES IMPORTANTE
+#
 
 msg_id_map = {
     'actuator_armed': 1,
